@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Escuela de idiomas. Caja</title>
+		  <meta charset="UTF-8">
+		  <link rel="stylesheet" href="font.css">
+		  <link rel="stylesheet" href="main.css">
+		  <link rel="icon" type="image/png" href="https://static.miweb.padigital.es/var/m_9/99/99f/31553/473220-icono-1.png" >
+	</head>
+	<body>
+		<div class="social-bar">
+			<a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+			<a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
+			<a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+			<a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+	    </div>
+		<div id="header">
+			<nav> 
+				<ul class="nav">
+					<li><a href="indexP.html">Inicio</a></li>
+					<!--<li><a href="">Alumnos</a>
+						<ul>
+							<li><a href="">Listas</a></li>
+						</ul>
+					</li>-->
+					<li><a href="">Acerca de</a>
+						<ul>
+							<li><a href="horariosP.html">Horarios</a></li>
+							<li><a href="informesP.html">Idiomas</a></li>
+							<li><a href="testimoniosP.html">Testimonios</a></li>
+						</ul>
+					</li>
+					<li><a href="contactoP.html">Contacto</a></li>
+					<li><a href="">Personal</a>
+						<ul>
+							<li><a href="Caja.html">Caja</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html">Cerrar Sesión</a></li>
+				</ul>
+			</nav>
+		</div>
+		<p><br>
+		<p><br>
+		<p><br>
+		<h1><img src="https://blog.internationalstudent.com/wp-content/uploads/2016/06/csi-ThinkstockPhotos-509211931.jpg" border="0" width="80" height="80"> Language School<h1>
+		<h3>Pago de Colegiatura </h3>
+		 <br><br> <br>
+	<font color="white">	 
+		<form action="conexion.php">
+			
+			
+			<center><fieldset><legend><h1>Recibo de Caja:</h1></legend> 
+			<br><br><br>
+      <table>              
+	      <tr>
+              <td>Fecha:</td>
+              <td><input type="date" name="bday"></td>
+          </tr>
+		  <tr>
+
+              <td>Nombre del Alumno(a):</td>
+              <td><input type="text" name="texto1"></td>
+          </tr>
+          
+		  
+		  <tr>
+          <td>No.cuenta:</td>
+         <td><input type="text" name="texto1"> </td>
+         </tr>  </table> 
+
+      <br><br><br>
+				
+		      
+	<table> 		
+				
+	 	 <tr>	
+			 <td>Tipo de Idioma:</td>
+			 <td><select name="cars">   
+				 <option value="s1">Ingles</option>    
+				 <option value="s2" selected>Alemán</option>  
+				 <option value="s3">Francés</option>
+				 <option value="s4">Italiano</option> 
+				 <option value="s5">Español</option> 
+			  </select> </td>
+			 <td>Nivel</td>
+			 <td><select name="cars">   
+				 <option value="s1">Básico</option>    
+				 <option value="s2" selected>Elemental</option>  
+				 <option value="s3">Elemental Superior</option>
+				 <option value="s4">Intermedio I</option> 
+				 <option value="s5">Intermedio II</option> 
+				 <option value="s6">Avanzado I</option> 
+				 <option value="s7">Avanzado II</option></select></td> 
+             </tr>
+    </table> 
+	<br><br>
+	<table> 
+			 <tr>
+			 <td>Forma de Pago:</td><td></td> </tr>
+			
+			 <tr>
+			 <td>Efectivo</td> 
+			 <td><input type="radio" name="opciones" value="opcion1" checked></td>
+			 </tr>
+				
+			 <tr>
+			 <td>Cheque</td> 
+			 <td><input type="radio" name="opciones" value="opcion2" checked></td>
+			 </tr>
+			 <tr>
+			 <td>Depósito</td> 
+			 <td><input type="radio" name="opciones" value="opcion3" checked></td>
+			 </tr>
+	 </table> 
+    <br><br>	 
+	 <table> 
+			<tr>
+			<td>Cantidad:&nbsp; &nbsp;&nbsp; &nbsp; 
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td><td> <input type="number"    name="quantity" min="1" max="5"></td>
+			</tr>
+			
+			<tr>
+			<td>Monto:&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td><td> <input type="num" name="texto1"></td>
+			</tr>
+			
+			<tr>
+			<td>Descripción:&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td><td> <input type="num" name="texto2"></td>
+			</tr>
+			
+			</table>
+		<br><br>
+		
+		<table align="center">
+        <tr>		
+		<div align="center">
+				&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+				&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 
+				&nbsp;&nbsp;<input style="cursor: pointer" class="botonS"type="submit" value="Enviar">&nbsp;&nbsp;<input style="cursor: pointer" class="botonS" type="reset" value="Restablecer" > 
+		</div>
+		</tr>
+		</table> 
+		<br><br><br>
+		</fieldset></center>
+	</form>
+	</font>
+		<p><br>
+		<p><br>
+		<p><br>
+		<p><div>
+			<a href="">©2014 Advance Language Centre  </a>&nbsp; &nbsp; 
+			<a href="">Política de privacidad  </a>&nbsp; &nbsp;
+			<a href="">Aviso legal   </a>&nbsp; &nbsp;
+			<a href="">Consultas y sugerencias  </a>
+		</div>
+	</body>
+</html>

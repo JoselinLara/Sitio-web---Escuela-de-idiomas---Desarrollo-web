@@ -1,0 +1,4 @@
+<?php
+$con =  mysqli_connect('localhost','root','','idiomas' ) or die("No se conectó a la BD");
+
+?>
